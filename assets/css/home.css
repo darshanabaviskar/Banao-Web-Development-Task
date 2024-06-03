@@ -1,0 +1,16 @@
+.home{
+    height: 440px;
+    border: 2px solid black;
+    background-image:  linear-gradient(45deg, rgba(0, 0, 0, 0.517), rgba(0, 0, 0, 0.6)),url('../images/homebg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.home .container-fluid{
+  position: relative;
+}
+.home .container-fluid .home-text{
+    color: #fff;
+    position: absolute;
+    top: 290px;
+    left: 10%;
+}

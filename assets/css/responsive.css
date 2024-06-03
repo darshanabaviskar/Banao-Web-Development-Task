@@ -1,0 +1,147 @@
+@media (max-width: 400px) {
+    /* navbar responsiveness  */
+    header{
+        position: static !important;
+    }
+    .navbar{
+        display: none;
+    }
+    .mobile-top-container{
+        display: flex !important;
+    }
+    .mobile-top-container a{
+        font-size: 11px !important;
+    }
+    .mobile-top-button-container{
+        display: flex !important;
+    }
+    .mobile-signup-button-container{
+        display: block !important;
+    }
+    /*  */
+
+
+
+    /* home responsiveness */
+    .home{
+        height: 280px !important;
+    }
+    .home .container-fluid .home-text{
+        left: 20px !important;
+        top: 180px !important;
+    }
+    /*  */
+
+
+
+    /* Content navbar */
+    .content .container-fluid{
+        height: auto !important;
+    }
+    .content-container, .content-row, .container-card{
+        --bs-gutter-x : 0;
+    }
+    .mobile-filter-content-container{
+        display: flex !important;
+    }
+    .container-card{
+        overflow-y: unset !important;
+        background: #d6d6d6;
+    }
+    .container-card .card{
+        border: none;
+        box-shadow: 0 3px 3px rgba(145, 145, 145, 0.745);
+        border-radius: 0;
+    }
+    .card-img-top{
+        height: 120px !important;
+    }
+    .card-title{
+        font-size: 17px !important;
+    }
+    .card-title br{
+        display: none;
+    }
+    .card-text{
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-location p {
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-location p svg{
+       width: 16px;
+       height: 16px;
+    }
+    .card-location p span{
+       font-size: 15px;
+    }
+    .card-location p i{
+        font-size: 15px !important; 
+    }
+    .card-footer .footer-profile,.card-footer .profile-views{
+        display: none !important;
+    }
+    .mobile-footer-profile{
+        display: flex !important;
+    }
+    .mobile-footer-btn{
+        display: block !important;
+    }
+    /*  */
+
+
+
+    /* modal responsiveness  */
+    .modal-header{
+        display: none !important;
+    }
+    .modal-body{
+        padding: 10px 0 !important;
+    }
+   
+    .modal-dialog {
+        margin-inline: 0;
+        margin-top: 15rem;
+        position: fixed;
+    }
+    .modal-picture-container{
+        display: none;
+    }
+    .modal-signup-mobile-text{
+        display: block !important;
+    }
+    .signin-text{
+        display: none;
+    }
+    .btn-createaccount{
+        --bs-btn-padding-x: 2rem;
+    }
+    .btn-modal-close-mobile{
+        display: block !important;
+    }
+    .display-mobile-off{
+        display: none !important;
+    }
+    .mobile-mobal-button{
+        display: flex !important;
+    }
+    .login-modal-image{
+        display: none;
+    }
+    .modal-padding-bottom{
+        padding-bottom: 120px !important;
+    }
+    /*  */
+}
+
+@media (max-width: 782px) {
+    .groups-info{
+        display: none;
+    }
+}

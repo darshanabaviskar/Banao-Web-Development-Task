@@ -1,0 +1,71 @@
+.btn-modal-close{
+    position: absolute;
+    top: -10%;
+    right: -2%;
+   
+    background-color: rgba(174, 174, 174, 0.919);
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+}
+.modal-dialog{
+    --bs-modal-margin: 9rem 1.75rem;
+}
+.modal-header{
+    background-color: #EFFFF4;
+}
+.modal-header p{
+    color: #008A45;
+text-align: center;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+.btn-createaccount{
+    --bs-btn-border-radius: 20px;
+}
+.signin-website-btn{
+    color: #000;
+    border-radius: 2px;
+    border: 0.6px solid #D9D9DB;
+    background: #FFF;
+    padding-block: 7px;
+}
+
+.signup-input{
+    padding: 10px;
+    border-radius: 2px 2px 0px 0px;
+    border: 1px solid #D9D9DB;
+    background: #F7F8FA;
+}
+.signup-input input{
+    width: 100%;
+    background: #F7F8FA;
+    border: none;
+    outline: none;
+}
+.modal-signup-mobile-text{
+    display: none;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.btn-modal-close-mobile{
+    display: none;
+    background-color: rgba(65, 65, 65, 0.919);
+    font-weight: bolder;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+}
+.mobile-mobal-button{
+    display: none;
+}
+.mobile-mobal-button a{
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+}
